@@ -1,0 +1,108 @@
+# ============================================
+# .gitattributes para proyectos Unity
+# ============================================
+
+# Comportamiento por defecto: normalizar a LF
+* text=auto eol=lf
+
+# ---------- Código fuente ----------
+*.cs        text diff=csharp eol=crlf
+*.js        text eol=lf
+*.shader    text eol=lf
+*.compute   text eol=lf
+*.cginc     text eol=lf
+*.hlsl      text eol=lf
+*.glsl      text eol=lf
+*.json      text eol=lf
+*.xml       text eol=lf
+*.txt       text eol=lf
+*.md        text eol=lf
+
+# ---------- Archivos de configuración/proyecto ----------
+*.rsp       text eol=crlf
+*.sln       text eol=crlf
+*.csproj    text eol=crlf
+*.asmdef    text eol=lf
+*.asmref    text eol=lf
+
+# ---------- Archivos Unity (YAML) ----------
+*.meta      merge=unityyamlmerge eol=lf
+*.unity     merge=unityyamlmerge eol=lf -text
+*.asset     merge=unityyamlmerge eol=lf -text
+*.prefab    merge=unityyamlmerge eol=lf -text
+*.mat       merge=unityyamlmerge eol=lf -text
+*.anim      merge=unityyamlmerge eol=lf -text
+*.controller merge=unityyamlmerge eol=lf -text
+*.overrideController merge=unityyamlmerge eol=lf -text
+*.physicMaterial merge=unityyamlmerge eol=lf -text
+*.physicsMaterial2D merge=unityyamlmerge eol=lf -text
+*.playable  merge=unityyamlmerge eol=lf -text
+*.mask      merge=unityyamlmerge eol=lf -text
+*.brush     merge=unityyamlmerge eol=lf -text
+*.flare     merge=unityyamlmerge eol=lf -text
+*.fontsettings merge=unityyamlmerge eol=lf -text
+*.guiskin   merge=unityyamlmerge eol=lf -text
+*.renderTexture merge=unityyamlmerge eol=lf -text
+*.spriteatlas merge=unityyamlmerge eol=lf -text
+*.terrainlayer merge=unityyamlmerge eol=lf -text
+*.mixer     merge=unityyamlmerge eol=lf -text
+*.shadervariants merge=unityyamlmerge eol=lf -text
+*.giparams  merge=unityyamlmerge eol=lf -text
+
+# ---------- Binarios (NUNCA tocar los finales de línea) ----------
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.psd       binary
+*.tga       binary
+*.tif       binary
+*.tiff      binary
+*.bmp       binary
+*.exr       binary
+*.hdr       binary
+*.ico       binary
+
+*.fbx       binary
+*.blend     binary
+*.obj       binary
+*.max       binary
+*.3ds       binary
+*.dae       binary
+
+*.wav       binary
+*.mp3       binary
+*.ogg       binary
+*.aif       binary
+*.aiff      binary
+
+*.mp4       binary
+*.mov       binary
+*.avi       binary
+*.webm      binary
+
+*.ttf       binary
+*.otf       binary
+*.fnt       binary
+
+*.dll       binary
+*.pdb       binary
+*.so        binary
+*.dylib     binary
+*.a         binary
+*.lib       binary
+*.jar       binary
+*.exe       binary
+
+*.zip       binary
+*.7z        binary
+*.rar        binary
+*.gz        binary
+*.unitypackage binary
+
+# ---------- Git LFS (opcional, si usas assets pesados) ----------
+# Descomenta si tienes Git LFS configurado:
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.fbx filter=lfs diff=lfs merge=lfs -text
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
