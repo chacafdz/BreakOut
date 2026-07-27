@@ -19,4 +19,7 @@ public class BLoque : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+    public virtual void RebotarBola() 
+    {
+    }
 }

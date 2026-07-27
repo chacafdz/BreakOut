@@ -11,5 +11,8 @@ public class Bloque_Madera : BLoque
 
     }
 
-    
+    public override void RebotarBola()
+    {
+        base.RebotarBola();
+    }
 }

@@ -8,12 +8,8 @@ public class Bloque_Piedra : BLoque
     // Start is called before the first frame update
     void Start()
     {
-        
+        resistencia = 5;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
