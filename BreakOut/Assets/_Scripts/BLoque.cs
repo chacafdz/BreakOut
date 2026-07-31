@@ -5,18 +5,24 @@ using UnityEngine;
 public class BLoque : MonoBehaviour
 {
     public int resistencia = 1;
+
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
 
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         if (resistencia <= 0)
         {
             Destroy(this.gameObject);
         }
+    }
+
+
+    public virtual void RebotarBola()
+    {
     }
 }
