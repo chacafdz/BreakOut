@@ -12,7 +12,15 @@ public class Jugador : MonoBehaviour
     {
 
     }
-
+    public virtual void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Bola")
+        {
+            Vector3 direccion = collision.contacts[0].point - transform.position;
+            direccion = direccion.normalized;
+            collision.rigidbody.velocity = collision.gameObject.GetComponent<Bola>().velocidadBola * direccion;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
