@@ -6,7 +6,12 @@ using System;
 
 public class BLoque : MonoBehaviour
 {
+    [Tooltip("Resistencia base configurada para este tipo de bloque, antes de aplicar la dificultad.")]
     public int resistencia = 1;
+
+    [Tooltip("Asset de Opciones que define la dificultad actual. Arrastralo desde el Project.")]
+    public Opciones opciones;
+
     public UnityEvent AumentarPuntaje;
 
     private void OnCollisionEnter(Collision collision)
@@ -28,7 +33,11 @@ public class BLoque : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
-
+        // La dificultad ajusta la resistencia base: facil=0, normal=1, dificil=2 golpes extra.
+        if (opciones != null)
+        {
+            resistencia += (int)opciones.NivelDificultad;
+        }
     }
 
     // Update is called once per frame

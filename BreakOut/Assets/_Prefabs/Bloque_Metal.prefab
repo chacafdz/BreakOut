@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 3414229602429276707}
   - component: {fileID: 1222333133846016529}
   - component: {fileID: 8172269396835026227}
-  - component: {fileID: 7212458159171893859}
-  - component: {fileID: -8651981116736500359}
   - component: {fileID: 295971971006876617}
   m_Layer: 0
   m_Name: Bloque_Metal
@@ -108,48 +106,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7212458159171893859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5160533151519393771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a65813b04b82ed847bbca8d66f66832d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resistencia: 1
-  AumentarPuntaje:
-    m_PersistentCalls:
-      m_Calls: []
-  rebote: 0.1
-  friccion: 0.3
-  masa: 20
-  combinacionFriccion: 0
-  combinacionRebote: 2
---- !u!114 &-8651981116736500359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5160533151519393771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a65813b04b82ed847bbca8d66f66832d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resistencia: 1
-  AumentarPuntaje:
-    m_PersistentCalls:
-      m_Calls: []
-  rebote: 0.1
-  friccion: 0.3
-  masa: 5
-  combinacionFriccion: 0
-  combinacionRebote: 2
 --- !u!114 &295971971006876617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resistencia: 1
+  opciones: {fileID: 0}
   AumentarPuntaje:
     m_PersistentCalls:
       m_Calls: []
