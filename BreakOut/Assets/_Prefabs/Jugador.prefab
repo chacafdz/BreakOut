@@ -131,8 +131,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 3
@@ -148,3 +148,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4c7abff502007489ba79dd97c242f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  limiteX: 23
+  VelocidadPaddle: 0.5

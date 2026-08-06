@@ -28,20 +28,24 @@ public class Puntaje : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        puntajeAltoSO.puntaje += 50;
     }
 
     // Update is called once per frame
     void Update()
     {
         textoActual.text = $"PuntajeActual: { puntajeAltoSO.puntaje} ";
-                if (puntajeAltoSO.puntaje > puntajeAltoSO.puntajeAlto)
-            {
+        if (puntajeAltoSO.puntaje > puntajeAltoSO.puntajeAlto)
+        {
             puntajeAltoSO.puntajeAlto = puntajeAltoSO.puntaje;
             textoPuntajeAlto.text = $"PuntajeAlto: {puntajeAltoSO.puntajeAlto}";
             puntajeAltoSO.Guardar();
             //PlayerPrefs.SetInt("PuntajeAlto", puntos);
 
-            }
+        }
+    }
+    
+    public void AumentarPuntaje(int puntos)
+    {
+        puntajeAltoSO.puntaje += puntos;
     }
 }

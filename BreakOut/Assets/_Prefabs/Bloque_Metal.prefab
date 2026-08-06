@@ -120,6 +120,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65813b04b82ed847bbca8d66f66832d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resistencia: 1
+  AumentarPuntaje:
+    m_PersistentCalls:
+      m_Calls: []
+  rebote: 0.1
+  friccion: 0.3
+  masa: 20
+  combinacionFriccion: 0
+  combinacionRebote: 2
 --- !u!114 &-8651981116736500359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +141,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65813b04b82ed847bbca8d66f66832d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resistencia: 1
+  AumentarPuntaje:
+    m_PersistentCalls:
+      m_Calls: []
+  rebote: 0.1
+  friccion: 0.3
+  masa: 5
+  combinacionFriccion: 0
+  combinacionRebote: 2
 --- !u!114 &295971971006876617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,3 +162,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65813b04b82ed847bbca8d66f66832d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resistencia: 1
+  AumentarPuntaje:
+    m_PersistentCalls:
+      m_Calls: []
+  rebote: 0.1
+  friccion: 0.3
+  masa: 20
+  combinacionFriccion: 0
+  combinacionRebote: 2
