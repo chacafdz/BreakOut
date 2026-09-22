@@ -494,6 +494,10 @@ PrefabInstance:
       value: Bloque_Vidrio
       objectReference: {fileID: 0}
     - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -583,6 +587,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -634,6 +642,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5431780059863458852, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7645297660917738236, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_Name
       value: Bloque (2)
@@ -660,6 +672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Piedra
       objectReference: {fileID: 0}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -725,6 +741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Vidrio (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -824,6 +844,10 @@ PrefabInstance:
       value: Bloque_Piedra (7)
       objectReference: {fileID: 0}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -893,6 +917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Piedra (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1249,6 +1277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Piedra (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1785,6 +1817,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
+    - target: {fileID: 930064214083437490, guid: 99d200c036ab3f6458c24989747f6969, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783364754908623666, guid: 99d200c036ab3f6458c24989747f6969, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 1783364754908623666, guid: 99d200c036ab3f6458c24989747f6969, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2939,6 +2979,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -3293,6 +3337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Piedra (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3721,6 +3769,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
+    - target: {fileID: 930064214083437490, guid: 99d200c036ab3f6458c24989747f6969, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1783364754908623666, guid: 99d200c036ab3f6458c24989747f6969, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3786,6 +3838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Vidrio (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3920,6 +3976,10 @@ PrefabInstance:
       propertyPath: masa
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4288,6 +4348,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -4338,6 +4402,10 @@ PrefabInstance:
     - target: {fileID: 4899882811405137237, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5431780059863458852, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7645297660917738236, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_Name
@@ -4450,6 +4518,10 @@ PrefabInstance:
       propertyPath: masa
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4955,6 +5027,10 @@ PrefabInstance:
       value: Bloque_Vidrio (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -5139,6 +5215,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -5189,6 +5269,10 @@ PrefabInstance:
     - target: {fileID: 4899882811405137237, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5431780059863458852, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7645297660917738236, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_Name
@@ -5727,6 +5811,10 @@ PrefabInstance:
       value: Bloque_Piedra (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -5988,6 +6076,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -6038,6 +6130,10 @@ PrefabInstance:
     - target: {fileID: 4899882811405137237, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5431780059863458852, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7645297660917738236, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_Name
@@ -6196,6 +6292,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -6265,6 +6365,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
+    - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6340,6 +6444,10 @@ PrefabInstance:
       value: Bloque_Piedra (6)
       objectReference: {fileID: 0}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -6409,6 +6517,10 @@ PrefabInstance:
       propertyPath: masa
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -6489,9 +6601,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Metal
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7212458159171893859, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
-    - {fileID: -8651981116736500359, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6587,6 +6697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque_Vidrio (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -6907,6 +7021,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -7219,6 +7337,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -7269,6 +7391,10 @@ PrefabInstance:
     - target: {fileID: 4899882811405137237, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5431780059863458852, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7645297660917738236, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_Name
@@ -7327,6 +7453,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4218333611243122876, guid: cc2186eb08bdd0a42885903d1ee5a873, type: 3}
+      propertyPath: mantenerEnPantalla
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961813160049670001, guid: cc2186eb08bdd0a42885903d1ee5a873, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 6961813160049670001, guid: cc2186eb08bdd0a42885903d1ee5a873, type: 3}
       propertyPath: velocidadBola
       value: 20
@@ -7619,6 +7753,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -7683,6 +7821,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
+    - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8010,6 +8152,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
     - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 1463036699131332311, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -8060,6 +8206,10 @@ PrefabInstance:
     - target: {fileID: 4899882811405137237, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5431780059863458852, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7645297660917738236, guid: 69343d36797e4d04db1706d16e53532d, type: 3}
       propertyPath: m_Name
@@ -8285,6 +8435,10 @@ PrefabInstance:
       value: Bloque_Piedra (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 4494814207951702709, guid: f5ac61df186d9324b9000d523fe96ce3, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 521232617}
@@ -8498,6 +8652,10 @@ PrefabInstance:
       value: Bloque_Vidrio (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
+    - target: {fileID: 3193875953911088017, guid: dc62fca741763544f8b30f31f4e5045f, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -8595,6 +8753,10 @@ PrefabInstance:
       propertyPath: masa
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: 295971971006876617, guid: 0379094946cd5ed4388f83cf3b42a02b, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -8695,6 +8857,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1966599553}
     m_Modifications:
+    - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: e937a54867283bd47b97e8c13c428f2e, type: 2}
     - target: {fileID: -4595523959510098661, guid: 9e3466bd3a960ca47a4ed4af85a1dbc9, type: 3}
       propertyPath: AumentarPuntaje.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

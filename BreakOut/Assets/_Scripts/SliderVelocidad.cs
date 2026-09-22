@@ -11,12 +11,24 @@ public class SliderVelocidad : MonoBehaviour
     public void Start()
     {
         slider = this.GetComponent<Slider>();
-        slider.onValueChanged.AddListener(delegate { ControlarCambios(); });
 
+        if (slider == null)
+        {
+            Debug.LogError("SliderVelocidad: no se encontro un componente Slider en este GameObject. " +
+                "Verifica que este script este sobre el objeto que tiene el componente Slider (UnityEngine.UI), no en un padre o hijo distinto.");
+            return;
+        }
+
+        // Sincroniza el slider con el valor actual al arrancar, para que no "salte" al primer drag.
+        slider.value = opciones.velocidadbola;
+
+        slider.onValueChanged.AddListener(delegate { ControlarCambios(); });
     }
+
     public void ControlarCambios()
     {
-        opciones.CambiarVelocidad(slider.value);
+        // Fija el valor absoluto del slider, en vez de sumarlo, para evitar
+        // que arrastrar el slider acumule velocidad sin control.
+        opciones.FijarVelocidad(slider.value);
     }
-
 }
